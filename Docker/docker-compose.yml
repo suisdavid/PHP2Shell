@@ -1,6 +1,7 @@
 services:
   php2shell-target:
     build: .
+    platform: linux/amd64
     image: php2shell-target:8.4.26
     container_name: php2shell-target
     ports:
